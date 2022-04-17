@@ -1,0 +1,68 @@
+html,
+body {
+  background-color: #171717;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+#navbar {
+  background-color: #171717 !important;
+}
+
+a {
+  color: white !important;
+}
+
+a:hover {
+  color: #0275d8 !important;
+}
+
+.btn {
+  transition: width 0.2s, height 0.2s, linear 0.2s;
+  border-radius: 15px;
+  width: 200px;
+}
+
+.btn:hover {
+  opacity: 80%;
+  transform: scale(1.2);
+  transition: width 0.2s, height 0.2s, linear 0.2s;
+  color: white !important;
+}
+
+.colorChangeBtn {
+  width: fit-content;
+}
+
+img {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.dark-mode {
+  background-color: white;
+  color: black;
+}
+
+.footer {
+  background-color: #171717 !important;
+  height: 40px;
+}
+
+.card-fluid img {
+  min-height: 300px !important;
+  max-height: 300px !important;
+  box-shadow: 5px 5px 20px rgb(0 0 0);
+  transition: width 0.2s, height 0.2s, linear 0.2s;
+}
+
+.card-fluid img:hover {
+  opacity: 80%;
+  transform: scale(1.05);
+  transition: width 0.2s, height 0.2s, linear 0.2s;
+}
+
+#contactsection {
+  background-color: rgb(59, 59, 59);
+  box-shadow: 5px 5px 20px rgb(0 0 0);
+}
