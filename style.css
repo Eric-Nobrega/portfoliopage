@@ -39,6 +39,16 @@ img {
   max-height: 400px;
 }
 
+.footer-img {
+  max-width: 25px;
+  max-height: 25px;
+}
+
+.footer-img:hover {
+  transform: scale(1.2);
+  transition: width 0.2s, height 0.2s, linear 0.2s;
+}
+
 .footer {
   background-color: #171717 important;
   height: 40px;

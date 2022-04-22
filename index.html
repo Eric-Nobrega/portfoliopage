@@ -15,6 +15,7 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="style.css" />
     <title>Eric Portfolio</title>
   </head>
@@ -50,12 +51,16 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" id="linkOne" href="#">
+              <a
+                class="nav-link"
+                id="linkOne"
+                href="https://github.com/Eric-Nobrega?tab=repositories"
+              >
                 <h1 class="display-5">Projects.</h1>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="linkTwo" href="#">
+              <a class="nav-link" id="linkTwo" href="/updates.html">
                 <h1 class="display-5">Updates.</h1>
               </a>
             </li>
@@ -99,7 +104,7 @@
       </div>
       <div class="row text-center">
         <div class="col-12 col-md-4">
-          <div class="card-fluid">
+          <div class="card-fluid fadein">
             <img
               class="card-img-top img-fluid"
               src="data/currentproject.png"
@@ -120,7 +125,7 @@
           </div>
         </div>
         <div class="col-12 col-md-4">
-          <div class="card-fluid">
+          <div class="card-fluid fadein">
             <img
               class="card-img-top img-fluid"
               src="data/pokedex.png"
@@ -141,7 +146,7 @@
           </div>
         </div>
         <div class="col-12 col-md-4">
-          <div class="card-fluid">
+          <div class="card-fluid fadein">
             <img
               class="card-img-top img-fluid"
               src="data/crypto.png"
@@ -244,8 +249,27 @@
     </div>
 
     <!--Footer Component-->
-    <div class="footer mt-3 p-2 text-center">
-      <p class="lead">Developed By Eric Nobrega.</p>
+    <div class="footer d-block mt-3 p-2 text-center">
+      <p class="lead">
+        Developed By Eric Nobrega.
+        <span class="mx-3">
+          <a href="https://github.com/Eric-Nobrega?tab=repositories">
+            <img
+              class="img-fluid footer-img mx-1 mb-1"
+              id="github-img"
+              src="data/darkmodegithub.png"
+              alt=""
+          /></a>
+          <img
+            class="img-fluid footer-img mx-1"
+            src="data/email.png"
+            id="email-img"
+            alt=""
+          >
+          <input type="text" class="d-none" id="email-icon" value="testemail@gmail.com">
+        </img>
+        </span>
+      </p>
     </div>
 
     <script src="script.js"></script>
